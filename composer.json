@@ -1,0 +1,29 @@
+{
+  "name": "usf/html-generator",
+  "description": "HTML-generator for Usf",
+  "keywords": ["usf", "html-generator"],
+  "license": "usf",
+  "type": "project",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "asmodeusta",
+      "email": "asmodeusta@gmail.com",
+      "role": "master"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "files": [
+      "functions.php"
+    ],
+    "psr-4": {
+      "Usf\\HtmlGenerator\\": "src/"
+    }
+  }
+}
